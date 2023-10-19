@@ -473,6 +473,11 @@ color: var( --dark-blue-photography);
 
 
 /* GALERIA */ 
+section .galeria{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 @media (min-width:768px){
     section .galeria{
         display: grid;
@@ -480,10 +485,6 @@ color: var( --dark-blue-photography);
 }
 }
 
-section .galeria{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 
 
 
